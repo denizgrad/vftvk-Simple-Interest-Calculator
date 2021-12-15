@@ -1,6 +1,3 @@
-# coding-project-template
+# Interest Calculator
 
-midsection i ortada durdur
-resulttaki date i dynamic  yap
-inputu table gibi yap
-slider i degistir, kendini yenileyen ve yuzde isareti
+Fill the inputs and let it calculate
