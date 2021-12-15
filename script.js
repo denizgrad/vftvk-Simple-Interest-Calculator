@@ -18,6 +18,7 @@ function calculate()
     amount = document.getElementById("amount").value;
     if (amount <= 0){
         alert("Enter a positive number!");
+        document.getElementById("amount").focus();
         return;
     }
     rate = document.getElementById("rateoutput").innerText;
