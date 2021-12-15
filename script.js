@@ -16,6 +16,10 @@ function slider(rateval){
 function calculate()
 {
     amount = document.getElementById("amount").value;
+    if (amount <= 0){
+        alert("Enter a positive number!");
+        return;
+    }
     rate = document.getElementById("rateoutput").innerText;
     years = document.getElementById("years").value;
     interest = (Number(amount) * Number(years) * Number(rate)) /100;
